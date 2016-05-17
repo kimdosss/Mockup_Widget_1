@@ -1,0 +1,29 @@
+{
+    "labels": [0,   1,  2,  3,  4,  5,  6,  7,  8,  9,  10, 11, 12, 13, 14, 15, 16, 17],
+    "datasets": [
+        {
+            "type": "line",
+            "label": "Upper chart data - 2014",
+            "fillColor": "red",
+            "strokeColor": "rgba(220,220,220,1)",
+            "pointColor": "rgba(220,220,220,1)",
+            "pointStrokeColor": "#fff",
+            "pointHighlightFill": "#fff",
+            "pointHighlightStroke": "rgba(220,220,220,1)",
+            "data": [139.63 ,   492.58  ,   490.61  ,   133.06  ,   288.17  ,   355.59  ,   361.56  ,   476.6   ,   226.92  ,   464.55  ,   225.06  ,   428.07  ,   884.43  ,   626.54  ,   947.67  ,   613.41  ,   456.33  ,   548.45
+            ]
+        },
+        {
+            "type": "bar",                            
+            "label": "Upper second chart data - 2015",
+            "fillColor": "#3d9e68",
+            "strokeColor": "rgba(151,187,205,1)",
+            "pointColor": "rgba(151,187,205,1)",
+            "pointStrokeColor": "#fff",
+            "pointHighlightFill": "#fff",
+            "pointHighlightStroke": "rgba(151,187,205,1)",
+            "data": [480.39 ,   361.06  ,   395.11  ,   378.33  ,   395.76  ,   181.56  ,   335.38  ,   445.34  ,   383.65  ,   150.63  ,   364.96  ,   329.44  ,   457.6   ,   473.53  ,   255.25  ,   386.1   ,   398.74  ,   270.05
+            ]
+        }
+    ]
+}

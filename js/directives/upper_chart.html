@@ -1,0 +1,13 @@
+<div class="upper_section-dataarea">
+	<div class="upper_section-dataarea-container" ng-show="ShowData">
+		<span class="upper_section-dataarea-1">
+			&#9652 {{chartCalculationData}}
+		</span>
+		<span class="upper_section-dataarea-2">{{chartCalculationDiff}}{{chartCalculationPercent}}</span>
+	</div>
+	<div class="upper_instruction" ng-hide ="ShowData">
+		<p class="upper_instruction-content">Click the diagram below to display data</p>
+	</div>
+
+</div>
+<canvas id="upperChart"></canvas>

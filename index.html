@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Widget_1</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!--angular-->
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  
+ 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+	<!--css-->
+	<link rel="stylesheet" href="css/index.css">
+
+	<!-- font -->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+	<!--js-->
+	<script src="js/app.js"></script>
+	<script src="js/directive.js"></script>
+ 	<script src="js/controllers.js"></script>
+
+	<!-- chart.js -->    
+	<script src="https://rawgit.com/leighquince/Chart.js/master/Chart.js"></script>
+
+</head>
+<body ng-app="widget_1" ng-controller="widgetCon">
+	
+<div class="tool_container">
+
+<!-- Divide the app into three sections -->
+
+	<div class="top_section">
+		<!-- Set different background color -->
+		<div class="upperbackground"></div>
+		<div class="middlebackground"></div>
+		<div class="buttombackground"></div>
+
+		<!-- Angular directive for upper chart and data display -->
+		<chart-directive-a options = "ChartOptions" chart-data="UpperChartData"></chart-directive-a>
+	</div>	
+
+	<div class="middle_section">
+		<!-- Angular directive for displaying current time -->
+		<clock-kit></clock-kit>
+
+		<span class="middle_section-location">Toronto, Ontario</span>
+		<div class="middle_section-highlight">
+			<div class="middle_section-highlight-container">
+				<p class="middle_section-highlight-number">15.5 M</p>
+				<p class="middle_section-highlight-content">Shared Traded</p>
+			</div>
+			<div class="middle_section-highlight-container">
+				<p class="middle_section-highlight-number">28.44 B</p>
+				<p class="middle_section-highlight-content">Market Cap</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="buttom_section">
+		<!-- Angular directive for buttom chart and data display -->
+		<chart-directive-b  options = "ChartOptions" chart-data="ButtomChartData"></chart-directive-b>
+	</div>
+</div>
+
+
+
+</body>
+
+</html>
